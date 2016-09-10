@@ -1,3 +1,71 @@
 #section1{
-	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f22a0c+1,dd5f56+25,ad6a00+64,c9a35c+100 */
+	background: #f22a0c; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #f22a0c 1%, #dd5f56 25%, #ad6a00 64%, #c9a35c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #f22a0c 1%,#dd5f56 25%,#ad6a00 64%,#c9a35c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #f22a0c 1%,#dd5f56 25%,#ad6a00 64%,#c9a35c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f22a0c', endColorstr='#c9a35c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	.navbar-default {
+    	background-color: transparent;
+    	color: white;
+    	border-color: transparent;
+    	margin-top: 8px;
+    	font-family: 'Open Sans';
+    	font-weight: 700;
+    	.text-box{
+    		font-family: 'Montserrat';
+    		padding-top:3px;
+    		padding-bottom:3px;
+    		border: 2px solid white;
+    		font-size: 24px;
+    		line-height: 35px;
+    	}
+    	a{
+    		color: white;
+    		margin:4px;
+    	}
+    	i{
+    		color: white;
+    	}
+    	.blue-font{
+    		color: blue;
+    	}
+
+    	.line-right{
+    		border-right: 1px solid white;
+    		margin-right: 30px;
+    	}
+    	.center-icon{
+    		text-align: center;
+    		position: relative;
+    		top: -7px;
+    		right: 6px;
+    	}
+
+    	.azul, .white-box{
+    		margin: 2px;
+    		position: relative;
+    		top: 7px;
+    		height: 30px;
+    		width: 30px;
+    		border-radius: 50%;
+    	}
+    	.azul{
+
+    		background: blue;
+    	}
+    	.white-box{
+    		background: white;
+    		color: blue;
+    	}
+	}
+	h1 {
+		color: white;
+	    font-size: 104px;
+	    font-family: 'Montserrat';
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    letter-spacing: -10px;
+	}
 }
