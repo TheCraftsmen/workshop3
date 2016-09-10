@@ -1,4 +1,68 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800";
 @import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+#section1 {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f22a0c+1,dd5f56+25,ad6a00+64,c9a35c+100 */
+  background: #f22a0c;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f22a0c 1%, #dd5f56 25%, #ad6a00 64%, #c9a35c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f22a0c 1%, #dd5f56 25%, #ad6a00 64%, #c9a35c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f22a0c 1%, #dd5f56 25%, #ad6a00 64%, #c9a35c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f22a0c', endColorstr='#c9a35c',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  #section1 .navbar-default {
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-weight: 700; }
+    #section1 .navbar-default .text-box {
+      font-family: 'Montserrat';
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border: 2px solid white;
+      font-size: 24px;
+      line-height: 35px; }
+    #section1 .navbar-default a {
+      color: white;
+      margin: 4px; }
+    #section1 .navbar-default i {
+      color: white; }
+    #section1 .navbar-default .blue-font {
+      color: blue; }
+    #section1 .navbar-default .line-right {
+      border-right: 1px solid white;
+      margin-right: 30px; }
+    #section1 .navbar-default .center-icon {
+      text-align: center;
+      position: relative;
+      top: -7px;
+      right: 6px; }
+    #section1 .navbar-default .azul, #section1 .navbar-default .white-box {
+      margin: 2px;
+      position: relative;
+      top: 7px;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%; }
+    #section1 .navbar-default .azul {
+      background: blue; }
+    #section1 .navbar-default .white-box {
+      background: white;
+      color: blue; }
+  #section1 h1 {
+    color: white;
+    font-size: 104px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -10px; }
+
+#section2 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
 
 /*# sourceMappingURL=style.css.map */
