@@ -1,8 +1,10 @@
 #section8 {
 
-	background-image:url(http://placehold.it/800x600);
+	background-image:url(../assets/background.jpg);
 	background-size: cover;
-	background-position-y:-200px;
+	background-repeat: no-repeat;
+
+	
 	
 	width: 100%;
 	height: auto;
@@ -12,50 +14,66 @@
 			line-height: 20px;
 			width: 50%;
 
+
 			h2{
-				font-family:"Open sans";
+				font-family:"Open Sans";
 				font-weight: 700;
 
 			}
 			p {
-				font-family:"open sans";
+				font-family:"Open Sans";
 				font-weight: 400;
 			}
-			ul {
-				line-height: 20px;
+			
 				li {
 					list-style: none;
-				}
-				.grid {
-
-
-					img {
-						border-radius: 50%;
-						height:100px;
-						width: 100px;
-						display: inline-block;
-						position: relative;
-						top: -35px;
-						left: -10px;
-						border: 10px solid grey;
-					}
+				
+					div{
+							
+							font-size: 40px;
+							color:white;
+							height:100px;
+							width:100px;
+							border-radius:50%;
+							background-color:#31AAE1;
+							border: 10px solid #FFD98A;
+							float:left;
+							display: inline-block;
+							box-sizing: border-box;
+							.ion-eye {
+								    position: relative;
+    								top: 20px;
+    								left: 20px;
+							}
+							.ion-monitor{
+								position: relative;
+    							top: 20px;
+    							left: 20px;
+							}	
+							.ion-thumbsup {
+								position: relative;
+								top: 20px;
+								left:20px;
+							}
+						
+					}	
 					article {
-						width: 69%;
+						width: 60%;
 						display: inline-block;
+						// float: right;
+						text-align: left;
 
 						h5{
 							
 							font-family:"Open sans";
-							font-weight: "700";
+							font-weight: 700;
 						}					
 						p {
 							font-family: "Open sans";
-							font-weight: "400";
+							font-weight: 400;
 						}
-					}
-				}	
-				
+					}	
+				}
 			}
 		}
 	}
-}
