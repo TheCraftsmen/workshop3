@@ -65,8 +65,13 @@
   margin-top: 80px;
   margin-bottom: 80px; }
 
-#section .with-margin {
-  margin: 4px; }
+#section4 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  #section4 .row {
+    margin-bottom: 40px; }
+  #section4 .font-p-margin {
+    margin-bottom: 40px; }
 
 #section8 {
   background-image: url(http://placehold.it/800x600);
